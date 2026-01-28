@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://nhdfr.dev
+Host: https://d3x.foo
 
 # Sitemaps
-Sitemap: https://nhdfr.dev/sitemap.xml
+Sitemap: https://d3x.foo/sitemap.xml

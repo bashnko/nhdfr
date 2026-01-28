@@ -15,10 +15,10 @@ export default function HomePage() {
   ];
 
   const contactLinks = [
-    { label: "email", url: "mailto:nhdfr.dev@gmail.com" },
-    { label: "github", url: "https://github.com/nhdfr" },
-    { label: "x.com", url: "https://x.com/nhdfrrr" },
-    { label: "discord", url: "https://discord.com/users/#" },
+    { label: "email", url: "mailto:hi@bashneko.dev" },
+    { label: "github", url: "https://github.com/bashnko" },
+    // { label: "x.com", url: "https://x.com/bashnko" },
+    // { label: "discord", url: "https://discord.com/users/bashneko" },
   ];
 
   return (
@@ -26,10 +26,10 @@ export default function HomePage() {
       <div className="w-full max-w-3xl mx-auto">
         <div className="mb-8">
           <Hero
-            name="nhd"
-            title="know your tools...."
+            name="bashneko"
+            title="building simple, reliable software."
             navLinks={navLinks}
-            description="I spend most of my time building terminal tools and web apps, along with some fun side projects, gradually diving into core backend & systems stuff"
+            description="I work across dev, cloud, and systems, building simple, reliable software. This is where I share my experiments, tools, and lessons learned."
             contacts={contactLinks}
           />
         </div>

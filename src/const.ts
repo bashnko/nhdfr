@@ -4,7 +4,7 @@ export const SITE: Site = {
     title: "nhd",
     author: "nhd",
     description: "",
-    href: "https://nhdfr.dev",
+    href: "https://d3x.foo",
     locale: "en-US",
 }
 
@@ -20,16 +20,16 @@ export const NAV_LINKS: Social_Links[] = [
 ]
 
 export const SOCIAL_LINKS: Social_Links[] = [
-    {
-        label: "Twitter",
-        href: "https://x.com/nhdfrrr"
-    },
+    // {
+    //     label: "Twitter",
+    //     href: "https://x.com/nhdfrrr"
+    // },
     {
         label: "GitHub",
-        href: "https://github.com/nhdfr"
+        href: "https://github.com/bashnko"
     },
     {
         label: "Email",
-        href: "mailto:nhdfr.dev@gmail.com" 
+        href: "mailto:bashnko.dev@gmail.com" 
     }
 ]

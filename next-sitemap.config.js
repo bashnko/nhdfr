@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://nhdfr.dev',
+  siteUrl: 'https://d3x.foo',
   generateRobotsTxt: true,
   exclude: ['/icon.svg'],
 }; 

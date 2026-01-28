@@ -18,10 +18,10 @@ export default function PageLayout({
   ];
 
   const contactLinks = [
-    { label: "email", url: "mailto:you@example.com" },
-    { label: "github", url: "https://github.com/nhdfr" },
-    { label: "x.com", url: "https://x.com/d3xfoo" },
-    { label: "discord", url: "https://discord.com/users/your-id" },
+    { label: "email", url: "mailto:hi@bashneko.dev" },
+    { label: "github", url: "https://github.com/bashnko" },
+    // { label: "x.com", url: "https://x.com/bashnko" },
+    // { label: "discord", url: "https://discord.com/users/bashneko" },
   ];
 
   return (
@@ -32,10 +32,10 @@ export default function PageLayout({
           <>
             <div className="mb-8">
               <Hero
-                name="nhd"
-                title="know your tools...."
+                name="bashneko"
+                title="building simple, reliable software."
                 navLinks={navLinks}
-                description="I spend most of my time building terminal tools and web apps, along with some fun side projects, gradually diving into core backend & systems stuff"
+                description="I work across dev, cloud, and systems—building simple, reliable software. This is where I share my experiments, tools, and lessons learned."
                 contacts={contactLinks}
               />
             </div>
